@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		453CAC652553EC55003D2C55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 453CAC632553EC55003D2C55 /* main.cpp */; };
 		453CAC662553EC55003D2C55 /* creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 453CAC642553EC55003D2C55 /* creature.cpp */; };
+		455088F225547F0000687DD0 /* Special.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 455088F125547F0000687DD0 /* Special.cpp */; };
 		4569BC4B25547977001F253E /* Carte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4569BC4925547977001F253E /* Carte.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		453CAC632553EC55003D2C55 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = cartecreature/main.cpp; sourceTree = SOURCE_ROOT; };
 		453CAC642553EC55003D2C55 /* creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = creature.cpp; path = cartecreature/creature.cpp; sourceTree = SOURCE_ROOT; };
 		454350E82553295A0012D8CA /* EcemonProjet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EcemonProjet; sourceTree = BUILT_PRODUCTS_DIR; };
+		455088F125547F0000687DD0 /* Special.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Special.cpp; path = /Users/celesteliogier/Documents/Info/EcemonProjet/EcemonProjet/Special.cpp; sourceTree = "<absolute>"; };
+		455088F325547F0700687DD0 /* Special.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Special.h; path = /Users/celesteliogier/Documents/Info/EcemonProjet/EcemonProjet/Special.h; sourceTree = "<absolute>"; };
 		4569BC4925547977001F253E /* Carte.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Carte.cpp; sourceTree = "<group>"; };
 		4569BC4A25547977001F253E /* Carte.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Carte.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				453CAC642553EC55003D2C55 /* creature.cpp */,
+				455088F325547F0700687DD0 /* Special.h */,
+				455088F125547F0000687DD0 /* Special.cpp */,
 				4569BC4925547977001F253E /* Carte.cpp */,
 				4569BC4A25547977001F253E /* Carte.hpp */,
 				453CAC622553EC55003D2C55 /* creature.h */,
@@ -71,6 +76,7 @@
 			);
 			path = EcemonProjet;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXGroup section */
 
@@ -130,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453CAC652553EC55003D2C55 /* main.cpp in Sources */,
+				455088F225547F0000687DD0 /* Special.cpp in Sources */,
 				453CAC662553EC55003D2C55 /* creature.cpp in Sources */,
 				4569BC4B25547977001F253E /* Carte.cpp in Sources */,
 			);

@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EcemonProjet.xcodeproj">
+      location = "group:/Users/celesteliogier/Documents/Info/EcemonProjet/EcemonProjet/Special.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/celesteliogier/Documents/Info/EcemonProjet/EcemonProjet/Special.h">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
