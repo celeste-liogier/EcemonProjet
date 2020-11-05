@@ -1,6 +1,9 @@
 #ifndef CREATURE_H_INCLUDED
 #define CREATURE_H_INCLUDED
 
+#include <iostream>
+#include <vector>
+
 class Creature
 {
 private:
@@ -18,5 +21,7 @@ int m_prix;// prix de la carte quand tu souhaite l'acheter
         void afficherTypeEnergie();//afficher les cartes energie qu'il peut avoir
         void afficherEnergie();// afficher les cartes d'energie qu'il a ( peut etre pas dans cette classe)
 };
+
+//test creature.h
 
 #endif // CREATURE_H_INCLUDED
