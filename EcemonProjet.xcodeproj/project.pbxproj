@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		454350EC2553295A0012D8CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 454350EB2553295A0012D8CA /* main.cpp */; };
+		453CAC652553EC55003D2C55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 453CAC632553EC55003D2C55 /* main.cpp */; };
+		453CAC662553EC55003D2C55 /* creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 453CAC642553EC55003D2C55 /* creature.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		453CAC622553EC55003D2C55 /* creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = creature.h; path = cartecreature/creature.h; sourceTree = SOURCE_ROOT; };
+		453CAC632553EC55003D2C55 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = cartecreature/main.cpp; sourceTree = SOURCE_ROOT; };
+		453CAC642553EC55003D2C55 /* creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = creature.cpp; path = cartecreature/creature.cpp; sourceTree = SOURCE_ROOT; };
 		454350E82553295A0012D8CA /* EcemonProjet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EcemonProjet; sourceTree = BUILT_PRODUCTS_DIR; };
-		454350EB2553295A0012D8CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		454350EA2553295A0012D8CA /* EcemonProjet */ = {
 			isa = PBXGroup;
 			children = (
-				454350EB2553295A0012D8CA /* main.cpp */,
+				453CAC642553EC55003D2C55 /* creature.cpp */,
+				453CAC622553EC55003D2C55 /* creature.h */,
+				453CAC632553EC55003D2C55 /* main.cpp */,
 			);
 			path = EcemonProjet;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				454350EC2553295A0012D8CA /* main.cpp in Sources */,
+				453CAC652553EC55003D2C55 /* main.cpp in Sources */,
+				453CAC662553EC55003D2C55 /* creature.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
