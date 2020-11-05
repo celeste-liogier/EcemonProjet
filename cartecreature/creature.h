@@ -22,6 +22,5 @@ int m_prix;// prix de la carte quand tu souhaite l'acheter
         void afficherEnergie();// afficher les cartes d'energie qu'il a ( peut etre pas dans cette classe)
 };
 
-//test creature.h
 
 #endif // CREATURE_H_INCLUDED

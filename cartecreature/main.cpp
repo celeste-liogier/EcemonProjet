@@ -1,7 +1,8 @@
 #include <iostream>
 
 //using namespace std;
-//test main
+//test de Xcode ==> codeblocks  OK
+/// test de codeblocks à Xcode ==>  ?
 
 int main()
 {
