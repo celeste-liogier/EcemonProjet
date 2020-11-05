@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		453CAC652553EC55003D2C55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 453CAC632553EC55003D2C55 /* main.cpp */; };
-		453CAC662553EC55003D2C55 /* creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 453CAC642553EC55003D2C55 /* creature.cpp */; };
+		455088F9255480EA00687DD0 /* Special.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 455088F4255480EA00687DD0 /* Special.cpp */; };
+		455088FA255480EA00687DD0 /* creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 455088F7255480EA00687DD0 /* creature.cpp */; };
+		455088FB255480EA00687DD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 455088F8255480EA00687DD0 /* main.cpp */; };
 		4569BC4B25547977001F253E /* Carte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4569BC4925547977001F253E /* Carte.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,10 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		453CAC622553EC55003D2C55 /* creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = creature.h; path = cartecreature/creature.h; sourceTree = SOURCE_ROOT; };
-		453CAC632553EC55003D2C55 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = cartecreature/main.cpp; sourceTree = SOURCE_ROOT; };
-		453CAC642553EC55003D2C55 /* creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = creature.cpp; path = cartecreature/creature.cpp; sourceTree = SOURCE_ROOT; };
 		454350E82553295A0012D8CA /* EcemonProjet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EcemonProjet; sourceTree = BUILT_PRODUCTS_DIR; };
+		455088F4255480EA00687DD0 /* Special.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Special.cpp; sourceTree = "<group>"; };
+		455088F5255480EA00687DD0 /* Special.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Special.h; sourceTree = "<group>"; };
+		455088F6255480EA00687DD0 /* creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = creature.h; sourceTree = "<group>"; };
+		455088F7255480EA00687DD0 /* creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = creature.cpp; sourceTree = "<group>"; };
+		455088F8255480EA00687DD0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4569BC4925547977001F253E /* Carte.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Carte.cpp; sourceTree = "<group>"; };
 		4569BC4A25547977001F253E /* Carte.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Carte.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,11 +66,13 @@
 		454350EA2553295A0012D8CA /* EcemonProjet */ = {
 			isa = PBXGroup;
 			children = (
-				453CAC642553EC55003D2C55 /* creature.cpp */,
 				4569BC4925547977001F253E /* Carte.cpp */,
 				4569BC4A25547977001F253E /* Carte.hpp */,
-				453CAC622553EC55003D2C55 /* creature.h */,
-				453CAC632553EC55003D2C55 /* main.cpp */,
+				455088F7255480EA00687DD0 /* creature.cpp */,
+				455088F6255480EA00687DD0 /* creature.h */,
+				455088F8255480EA00687DD0 /* main.cpp */,
+				455088F4255480EA00687DD0 /* Special.cpp */,
+				455088F5255480EA00687DD0 /* Special.h */,
 			);
 			path = EcemonProjet;
 			sourceTree = "<group>";
@@ -129,9 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453CAC652553EC55003D2C55 /* main.cpp in Sources */,
-				453CAC662553EC55003D2C55 /* creature.cpp in Sources */,
 				4569BC4B25547977001F253E /* Carte.cpp in Sources */,
+				455088F9255480EA00687DD0 /* Special.cpp in Sources */,
+				455088FB255480EA00687DD0 /* main.cpp in Sources */,
+				455088FA255480EA00687DD0 /* creature.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
