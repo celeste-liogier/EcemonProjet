@@ -2,7 +2,7 @@
 
 //using namespace std;
 //test de Xcode ==> codeblocks  OK
-/// test de codeblocks à Xcode ==>  ?
+// test de codeblocks ˆ Xcode ==>  OK
 
 int main()
 {
